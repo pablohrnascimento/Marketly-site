@@ -1,0 +1,184 @@
+{
+  "Header": {
+    "title": "Nós Somos Marketly",
+    "paragraph": "A Marketly nasceu com a missão de tornar o comércio digital acessível a todos."
+  },
+  "About": {
+    "paragraph": "Nascemos da paixão por conectar marcas a pessoas de maneira autêntica e impactante. Somos mais do que uma agência de marketing digital; somos seus arquitetos de crescimento, seus estrategistas criativos e seus parceiros de negócios dedicados ao resultado.",
+    "Why": [
+      "Não nos preocupamos com métricas de vaidade, mas com o seu ROI. Usamos dados para garantir que cada ação de marketing gere vendas e crescimento mensurável para o seu negócio.",
+      "Rejeitamos o famoso copia e cola. Criamos um plano de marketing único, feito especificamente para os desafios e objetivos da sua marca, falando diretamente com seu cliente ideal.",
+      "O digital muda rápido. Estamos sempre à frente das tendências, aplicando as ferramentas e tecnologias mais recentes para manter sua marca relevante e um passo à frente da concorrência.",
+      "Somos uma extensão da sua equipe, não apenas um fornecedor. Garantimos comunicação clara, relatórios honestos e um alinhamento total para que você saiba exatamente o que está acontecendo."
+    ],
+    "Why2": [
+      "Criatividade Estratégia: Ideias inovadoras que realmente vendem.",
+      "Visão 360º: Soluções completas de marketing, do A ao Z, em um só lugar.",
+      "Agilidade e Adaptação: Respostas rápidas às mudanças do mercado.",
+      "Especialistas Dedicados: Uma equipe sênior cuidando de perto da sua marca."
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Desenvolvimento WordPress",
+      "text": "Criação de sites profissionais e responsivos utilizando WordPress, totalmente personalizados para o seu negócio. Oferecemos desempenho otimizado, segurança avançada e design moderno para destacar sua presença digital."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "E-commerce sob medida",
+      "text": "Desenvolvemos lojas virtuais completas, seguras e intuitivas, com integração de meios de pagamento e sistemas de entrega. Potencialize suas vendas online com uma experiência de compra fluida e eficiente."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Soluções em Nuvem",
+      "text": "Armazene, gerencie e acesse seus dados com segurança e agilidade. Implementamos soluções em nuvem escaláveis para empresas que buscam produtividade, proteção e facilidade de acesso remoto."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Tradução e Localização",
+      "text": "Quebre barreiras linguísticas! Oferecemos serviços de tradução profissional e localização de conteúdo, garantindo que sua mensagem seja compreendida e adaptada para diferentes públicos e culturas."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Consultoria em Viagens e Logística",
+      "text": "Planejamento estratégico de rotas, transporte e operações logísticas otimizadas. Garantimos eficiência, economia e segurança em cada etapa — do embarque à entrega final."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Análise de Dados e Resultados",
+      "text": "Transforme dados em decisões inteligentes. Através de dashboards e relatórios personalizados, ajudamos você a identificar oportunidades, medir resultados e impulsionar o crescimento do seu negócio."
+    }
+    ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "Fiquei simplesmente impressionada com a qualidade do Marketly. É visível o cuidado em cada detalhe! Além disso, a entrega foi muito mais rápida do que o esperado e o produto veio perfeitamente embalado. Com certeza comprarei novamente e já indiquei para todos os meus amigos.",
+      "name": "Mariana S., Belo Horizonte, MG"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "O Marketly foi um divisor de águas na minha carreira. Antes, eu me sentia perdido com minhas finanças, mas a metodologia prática e o suporte dedicado me deram a confiança que eu precisava. Em menos de 3 meses, consegui organizar tudo e começar a investir. Recomendo de olhos fechados!",
+      "name": "Carlos M., São Paulo, SP"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "Nossa equipe perdia horas com má gestão. Desde que implementamos o Marketly, nossa produtividade aumentou em pelo menos 40%. A ferramenta é intuitiva, robusta e o que antes levava um dia inteiro, agora fazemos em minutos. Mudou o nosso fluxo de trabalho.",
+      "name": "Ana P., Rio de Janeiro, RJ"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "Tive um pequeno problema com acesso e precisei contatar o suporte. Fui atendido pelo Eder e fiquei surpreso com a agilidade e a cordialidade. Meu problema foi resolvido em menos de 10 minutos. É raro ver um pós-venda tão eficiente e humano. Parabéns à equipe!",
+      "name": "Lucas F., Curitiba, PR"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "Toda visita ao Marketly é uma experiência incrível. O ambiente é acolhedor, a equipe é sempre sorridente e o [Nome do Serviço/Produto Principal] é impecável. É o meu lugar preferido na cidade para [objetivo, ex: relaxar/cuidar de mim/jantar].",
+      "name": "Sophia L., Salvador, BA"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "Trabalhar com a Marketly foi a melhor decisão estratégica que tomamos este ano. Eles não são apenas fornecedores, são verdadeiros parceiros. Entenderam profundamente nosso desafio e entregaram resultados que superaram todas as nossas metas. O profissionalismo e a transparência em todo o processo fazem toda a diferença.",
+      "name": "Rafael T., Porto Alegre, RS"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/pessoa1.png",
+      "name": "Pedro Luis",
+      "job": "Diretor Executivo"
+    },
+    {
+      "img": "img/team/02.png",
+      "name": "Michel Silva",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpeg",
+      "name": "Laura Gomes",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.png",
+      "name": "Ana Paula",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "Avenida 5, San José, Costa Rica",
+    "phone": "+506 8765-4321",
+    "email": "ana.silva.exemplo@gmail.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Atendimento e Suporte Ágil",
+      "text": "Conte com uma equipe sempre pronta para ajudar. Nosso suporte é humanizado, rápido e eficiente, garantindo que suas dúvidas sejam resolvidas e suas necessidades atendidas em tempo real."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Divulgação Estratégica",
+      "text": "Amplie o alcance da sua marca! Oferecemos recursos de marketing integrados que impulsionam sua presença online, conectando você ao público certo e aumentando seus resultados."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Gestão Colaborativa",
+      "text": "Trabalhe em equipe com mais produtividade. Nossa plataforma permite colaboração em tempo real, comunicação fluida e controle total de tarefas — tudo em um só lugar."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Personalização Total",
+      "text": "Deixe tudo com a cara do seu negócio. Personalize cores, layouts e funcionalidades para criar uma experiência única, profissional e alinhada à identidade da sua marca."
+    }
+  ]
+}

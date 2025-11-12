@@ -1,0 +1,15 @@
+@media screen and (max-width: 400px) {
+  
+
+  .container {
+    padding-left: 5px; 
+    padding-right: 5px; 
+    width: auto; 
+  }
+
+  
+  #features {
+    padding: 20px 5px;
+  }
+
+}
