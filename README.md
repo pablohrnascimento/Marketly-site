@@ -26,6 +26,8 @@ Desenvolvi o projeto sozinho, como freelancer: montagem das seções em React, t
 
 ## Demonstração
 
+**Online:** https://pablohrnascimento.github.io/Marketly-site/
+
 ![Página inicial da Marketly](docs/assets/marketly-overview.png)
 
 ## Como executar
@@ -33,7 +35,7 @@ Desenvolvi o projeto sozinho, como freelancer: montagem das seções em React, t
 **Pré-requisitos:** Node.js 20+ e npm.
 
 ```bash
-git clone https://github.com/pablohenrique2210/Marketly-site.git
+git clone https://github.com/pablohrnascimento/Marketly-site.git
 cd Marketly-site
 npm install
 npm run dev       # servidor de desenvolvimento em http://localhost:5173
