@@ -1,16 +1,58 @@
-# React + Vite
+# Marketly
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React_19-1f2937?style=flat-square&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite_7-1f2937?style=flat-square&logo=vite&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-1f2937?style=flat-square&logo=bootstrap&logoColor=white)
+![EmailJS](https://img.shields.io/badge/EmailJS-1f2937?style=flat-square&logo=maildotru&logoColor=white)
+![Status](https://img.shields.io/badge/status-Concluído-2ea44f?style=flat-square)
 
-Currently, two official plugins are available:
+Landing page institucional da **Marketly**, agência de marketing digital, desenvolvida como projeto freelance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Problema e solução
 
-## React Compiler
+A Marketly precisava de uma página única para apresentar a agência, seus serviços, equipe e depoimentos de clientes, e receber contatos sem depender de um back-end próprio. A solução é uma SPA em React + Vite, em que todo o conteúdo fica em um arquivo JSON e o formulário de contato envia e-mails diretamente do navegador via EmailJS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Meu papel
 
-## Expanding the ESLint configuration
+Desenvolvi o projeto sozinho, como freelancer, da estruturação das seções à integração do formulário de contato. <!-- CONFIRMAR: trabalhou sozinho? Fez também o design/layout ou partiu de um template? -->
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Decisões de engenharia
+
+- **Conteúdo separado da apresentação.** Todos os textos, serviços, depoimentos, equipe e contatos ficam em [`src/data/data.json`](src/data/data.json). O `App.jsx` carrega o JSON e repassa cada bloco via props para componentes de seção (`Header`, `Features`, `About`, `Services`, `Gallery`, `Testimonials`, `Team`, `Contact`). Alterar o conteúdo não exige mexer em JSX.
+- **Componentes de apresentação.** Cada seção em `src/components/` só renderiza os dados que recebe, sem estado global.
+- **Contato sem back-end.** O formulário usa `emailjs-com` (`sendForm`) para disparar o e-mail pelo serviço EmailJS, eliminando a necessidade de servidor.
+- **Navegação suave.** `smooth-scroll` aplicado a todos os links âncora (`a[href*="#"]`).
+- **Estilo.** Bootstrap 3, Font Awesome e CSS próprio servidos a partir de `public/`.
+
+## Demonstração
+
+![Visão geral da landing page](docs/assets/marketly-overview.gif)
+
+## Como executar
+
+**Pré-requisitos:** Node.js 20+ e npm.
+
+```bash
+git clone https://github.com/pablohenrique2210/Marketly-site.git
+cd Marketly-site
+npm install
+npm run dev       # servidor de desenvolvimento em http://localhost:5173
+npm run build     # build de produção em dist/
+npm run preview   # serve o build localmente
+```
+
+Não há variáveis de ambiente: as credenciais públicas do EmailJS estão em `src/components/contact.jsx`.
+
+**Testes:** o projeto não possui testes automatizados.
+
+## Estrutura de pastas
+
+```
+.
+├── index.html
+├── public/              # CSS, fontes, imagens e scripts estáticos (Bootstrap, Font Awesome)
+└── src/
+    ├── App.jsx          # carrega data.json e compõe as seções
+    ├── components/      # uma seção da página por componente
+    └── data/data.json   # todo o conteúdo textual da página
+```
