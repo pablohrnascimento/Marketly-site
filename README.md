@@ -26,7 +26,7 @@ Desenvolvi o projeto sozinho, como freelancer: montagem das seções em React, t
 
 ## Demonstração
 
-![Visão geral da landing page](docs/assets/marketly-overview.gif)
+![Página inicial da Marketly](docs/assets/marketly-overview.png)
 
 ## Como executar
 
