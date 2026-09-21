@@ -14,7 +14,7 @@ A Marketly precisava de uma página única para apresentar a agência, seus serv
 
 ## Meu papel
 
-Desenvolvi o projeto sozinho, como freelancer: montagem das seções em React, todo o conteúdo da página, integração do formulário de contato com EmailJS e build com Vite. <!-- CONFIRMAR: o código partiu da base open source "React Landing Page Template"? Se sim, citar e dar crédito aqui -->
+Desenvolvi o projeto sozinho, como freelancer: montagem das seções em React, todo o conteúdo da página, integração do formulário de contato com EmailJS e build com Vite.
 
 ## Decisões de engenharia
 
